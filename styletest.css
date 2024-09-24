@@ -3,7 +3,7 @@ body {
 }
 
 h1  {
-  color: #000;
+  color: #f00;
 }
 
 div#test01 {
@@ -12,4 +12,22 @@ div#test01 {
 
 .important {
   color: #a00;
+}
+
+table{
+  margin:auto;
+  border-collapse: collapse;
+}
+
+td, th{
+  border:solid 1px;
+  padding:2px 5px;
+}
+
+td.name{
+  text-align: center;
+}
+
+td span.last3{
+  font-weight: bold;
 }
